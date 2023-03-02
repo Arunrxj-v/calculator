@@ -251,9 +251,9 @@ public class Calculator implements Action {
         } else if (e.getSource() == subButton) {
             displaylabel.setText(displaylabel.getText() + "-");
         } else if (e.getSource() == addButton) {
-            // displaylabel.setText(displaylabel.getText() + "+");
             isOperatorclicked = true;
             oldValue = displaylabel.getText();
+            displaylabel.setText(displaylabel.getText() + "+");
             displaylabel.setText("");
         } else if (e.getSource() == clearButton) {
             displaylabel.setText("");
