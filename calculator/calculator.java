@@ -12,7 +12,7 @@ import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.plaf.FontUIResource;
 
-public class Calculator implements Action {
+public class calculator implements Action {
 
     JFrame jf;
     JLabel displaylabel;
@@ -37,7 +37,7 @@ public class Calculator implements Action {
     boolean isOperatorclicked = false;
     String oldValue;
 
-    public Calculator() {
+    public calculator() {
         jf = new JFrame("calculator");
         jf.setLayout(null);
         jf.setSize(600, 600);
@@ -159,7 +159,7 @@ public class Calculator implements Action {
     }
 
     public static void main(String[] args) {
-        new Calculator();
+        new calculator();
     }
 
     @Override
