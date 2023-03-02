@@ -145,7 +145,7 @@ public class Calculator implements Action {
         addButton.setBounds(330, 430, 80, 80);
         addButton.setFont(new FontUIResource("Arial", Font.PLAIN, 40));
         addButton.addActionListener(this);
-        jf.add(addButton);
+        jf.add(addButton); 
 
         clearButton = new JButton("clr");
         clearButton.setBounds(430, 430, 80, 80);
